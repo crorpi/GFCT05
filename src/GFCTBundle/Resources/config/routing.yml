@@ -1,0 +1,25 @@
+gfct_homepage:
+    path:     /
+    defaults: { _controller: GFCTBundle:Default:index }
+prueba_nombre:
+    path:     /nombre/{nPila}
+    defaults: { _controller: GFCTBundle:Default:nombre }
+all_empresa:
+    path:     /Empresa/all
+    defaults: { _controller: GFCTBundle:Empresa:all }
+
+empresa_crear:
+    path:     /Empresa/crear
+    defaults: { _controller: GFCTBundle:Empresa:crearEmpresa }
+    
+nueva_empresa:
+    path:     /Empresa/nueva
+    defaults: { _controller: GFCTBundle:Empresa:nueva }    
+
+exito_empresa:
+    path:     /Empresa/msgExito
+    defaults: { _controller: GFCTBundle:Empresa:msgExito }    
+
+all_alumno:
+    path:     /Alumno/all
+    defaults: { _controller: GFCTBundle:Alumno:all }
