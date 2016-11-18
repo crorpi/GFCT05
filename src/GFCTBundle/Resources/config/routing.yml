@@ -23,3 +23,8 @@ exito_empresa:
 all_alumno:
     path:     /Alumno/all
     defaults: { _controller: GFCTBundle:Alumno:all }
+
+api_nuevo:
+    path:     /Empresa
+    defaults: { _controller: GFCTBundle:Api:empresas }   
+    methods: [GET] 
